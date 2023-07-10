@@ -1,0 +1,49 @@
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 0;
+    transition: 0.3s linear;
+}
+
+.btn:hover {
+    transform: scale(1.3);
+    background-color: white;
+    color: palevioletred;
+    border: 1px solid;
+}
+
+.home {
+    padding: 30px 40px 0 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+}
+
+.section-title {
+    max-width: 500px;
+}
+
+.home .flower-img {
+    width: 400px;
+}
+
+.section-big {
+    font-size: 45px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.section-desc {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
