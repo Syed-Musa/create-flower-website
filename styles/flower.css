@@ -124,6 +124,7 @@
     width: 300px;
     margin-bottom: 0px;
     padding: 50px;
+    text-align: center;
 }
 
 .btn-desc {
@@ -136,3 +137,38 @@
     width: 200px;
     height: 250px;
 }
+/*hot deal section End*/
+
+/*fetured section Start*/
+.featured-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.featured-title h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.fetured-sec {
+    width: 400px;
+    margin: auto;
+    padding: 10px;    
+}
+
+.fetured-container-pictures {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 50px;
+}
+
+.fetured-container-pictures .fetured-pictures {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+/*fetured section End*/
+
