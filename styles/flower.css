@@ -10,6 +10,7 @@
     padding: 10px 20px;
     margin: 10px;
     border: 0;
+    border-radius: 5px;
     transition: 0.3s linear;
 }
 
@@ -55,9 +56,9 @@
     font-size: 30px;
 }
 
-/*main section Start*/
+/*banner section Start*/
 .banner-container-section {
-    height: 100vh;
+    height: 80vh;
     padding: 80px;
 }
 
@@ -105,4 +106,33 @@
 .letest-title {
     margin: 10px;
     text-decoration: underline;
+}
+/*banner section End*/
+
+/*hot deal section Start*/
+.hot-deal-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: auto;
+    align-items: center;
+}
+
+.hot-deal-text {
+    width: 300px;
+    margin-bottom: 0px;
+    padding: 50px;
+}
+
+.btn-desc {
+    color: palevioletred;
+    background-color: white;
+    margin: 0;
+}
+
+.hot-images {
+    width: 200px;
+    height: 250px;
 }
