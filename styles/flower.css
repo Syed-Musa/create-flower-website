@@ -172,3 +172,39 @@
 }
 /*fetured section End*/
 
+/*box message section Start*/
+.box-container {
+    width: 80%;
+    height: 200px;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.box-titles {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.box-titles h1 {
+    align-items: center;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.form-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-section input[type="text"] {
+    border: 0;
+    padding: 15px 30px;
+    width: 400px;
+}
+/*box message section End*/
+
